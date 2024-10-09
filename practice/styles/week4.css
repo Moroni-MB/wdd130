@@ -1,0 +1,50 @@
+main{
+    background-color: lightblue;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main p{
+    padding-top: 20px;
+}
+
+img{
+    height: 600px;
+
+}
+
+body{
+    font-size: 1.5em;
+}
+
+#green{
+    background-color: lightgreen;
+}
+
+p{
+    color: hotpink;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer p{
+    color: black;
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: lavender;
+}
+
+nav{
+    text-align: center;
+    background-color: beige;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+nav a{
+    margin: 20px;
+}
