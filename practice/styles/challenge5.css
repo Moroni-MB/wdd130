@@ -1,0 +1,15 @@
+main{
+    width: 1280px;
+}
+
+div{
+    background-color: gray;
+    text-align: center;
+}
+
+.bottom_image{
+    width: 200px;
+    border: rgb(73, 70, 70) 10px solid;
+    margin: 50px;
+    border-radius: 200px;
+}
