@@ -1,0 +1,54 @@
+body{
+    background-color: darkgray;
+}
+.blog-post{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.blog-stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.read{
+    background-color: rgb(63, 91, 139);
+    color: white;
+    text-align: center;
+}
+
+.views{
+    background-color: rgb(63, 91, 139);
+    color: white;
+    text-align: center;
+}
+
+.comments{
+    background-color: rgb(63, 91, 139);
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.tex-div{
+    margin-top: 0px;
+}
+
