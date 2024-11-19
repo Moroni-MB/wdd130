@@ -95,8 +95,9 @@ footer{
 .home-title{
     color: #e3b505;
     font-family: var(--heading-font);
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
+    text-shadow: 5px 5px 10px #6f7364;
 }
 
 h4{
@@ -369,6 +370,7 @@ form {
     z-index: 1;
     color: #fff;
     font-family: var(--heading-font);
+    text-shadow: 5px 5px 10px #000;
 }
 
 .river_img{
@@ -376,12 +378,14 @@ form {
     justify-self: center;
     width: 400px;
     height: 200px;
-    border: #e3b505 solid 5px;
+    border: #e3b505 solid 10px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 #river1{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 3/4;;
 }
 
 #river2{
@@ -397,4 +401,11 @@ form {
 .river_name{
     font-family: var(--heading-font);
     color: #0b91da;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.river_pg2{
+    margin-right: 30px;
+    margin-left: 30px;
 }
