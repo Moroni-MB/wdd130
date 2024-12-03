@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="styles/week12.css" />
+  </head>
+  <body>
+    <h1>The Beatles</h1>
+    <button class="accordion">The Rise of the Beatles</button>
+    <div class="panel">
+      <p>
+        The Beatles, a band formed in Liverpool, England, in 1960,
+        revolutionized the music industry and popular culture. Comprised of John
+        Lennon, Paul McCartney, George Harrison, and Ringo Starr, the group
+        began by performing in local clubs before achieving international fame.
+        Their early music, influenced by rock and roll and skiffle, quickly
+        gained attention for its catchy melodies and innovative harmonies. By
+        the mid-1960s, the Beatles were global icons, often referred to as the
+        "Fab Four."
+      </p>
+    </div>
+
+    <button class="accordion">Musical Evolution and Legacy</button>
+    <div class="panel">
+      <p>
+        As their career progressed, the Beatles continually pushed creative
+        boundaries. Albums like Revolver, Sgt. Pepper’s Lonely Hearts Club Band,
+        and Abbey Road showcased their willingness to experiment with new
+        sounds, instruments, and recording techniques. Their lyrics matured as
+        they tackled themes of love, identity, and societal issues. The band’s
+        ability to evolve musically while maintaining a connection with fans
+        cemented their status as one of the greatest musical acts of all time.
+      </p>
+    </div>
+
+    <button class="accordion">Cultural Impact</button>
+    <div class="panel">
+      <p>
+        The Beatles' influence extended far beyond music. They became cultural
+        icons of the 1960s, shaping fashion, film, and attitudes toward art and
+        counterculture. Songs like "All You Need Is Love" captured the spirit of
+        a generation seeking peace and unity. Even after their breakup in 1970,
+        their individual careers and the timeless appeal of their music continue
+        to inspire artists and fans worldwide. The Beatles' legacy is a
+        testament to their unparalleled impact on modern culture.
+      </p>
+    </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
