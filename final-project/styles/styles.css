@@ -19,7 +19,7 @@ body {
 
 main {
   flex: 1;
-  padding-top: 80px 20px; 
+  padding-top: 70px; 
   padding-bottom: 80px;
 }
 
@@ -199,3 +199,23 @@ footer .socials img:hover{
 }
 
 /************* Experience page css *************/
+.experience_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 50px;
+  padding-left: 20px;
+  /* width: 70%; */
+}
+
+.experience_div .content{
+  width: 100%;
+}
+
+.experience_div .experience_img{
+  text-align: right;
+}
+
+.content h1{
+  text-align: left;
+}
