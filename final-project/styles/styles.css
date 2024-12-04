@@ -103,7 +103,7 @@ h1 {
   font-family: var(--paragraph-font);
 }
 
-/* Header */
+/************* Header *************/
 #navbar {
   background-color: #007EA7; 
   color: white;
@@ -139,7 +139,7 @@ h1 {
   padding-left: 20px;
 }
 
-/* Footer */
+/************* Footer *************/
 footer {
   background-color: #007EA7;
   color: #0b91da;
@@ -154,8 +154,8 @@ footer {
 footer .logo{
   flex: 1;
   text-align: left;
-  width: 200px;
-  height: 200px;
+  width: 6.25rem;
+  height: 6.5rem;
 }
 
 footer nav{
@@ -197,3 +197,5 @@ footer .socials img{
 footer .socials img:hover{
   transform: scale(1.5);
 }
+
+/************* Experience page css *************/
