@@ -219,3 +219,14 @@ footer .socials img:hover{
 .content h1{
   text-align: left;
 }
+
+/************* Projects page css *************/
+#project_box{
+  display: flex;
+  margin: 10px 10px;
+  gap: 10px;
+}
+
+#projects{
+  text-align: center;
+}
