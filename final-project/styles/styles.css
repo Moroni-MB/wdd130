@@ -233,12 +233,17 @@ footer .socials img:hover{
 .content h1{
   text-align: left;
   margin-bottom: 10px;
+  font-family: var(--heading-font);
 }
 
 #experience{
   text-align: center;
   color: #00A8E8;
   margin-bottom: 20px;
+}
+
+.experience_p{
+  font-family: var(--paragraph-font);
 }
 
 /************* Projects page css *************/
@@ -298,11 +303,13 @@ footer .socials img:hover{
   margin-bottom: 10px;
   font-size: 2rem;
   line-height: 1.4;
+  font-family: var(--heading-font);
 }
 
 .img_description p {
   font-size: 1rem;
   line-height: 1.3;
+  font-family: var(--paragraph-font);
 }
 
 .img_wrap:hover .img_description {
