@@ -38,11 +38,11 @@ h1 {
 }
 
 .hero1 {
-  width: 800px;
-  border-radius: 800px;
+  width: 400px;
+  border-radius: 400px;
   display: block;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 65px;
 }
 
 .hero1:hover{
@@ -131,9 +131,19 @@ h1 {
   font-family: var(--heading-font);
 }
 
+#contact{
+  background-color: white;
+}
+
+#navbar a#contact{
+  color: #003459;
+}
+
 #navbar a:hover {
   background-color: #FDF0D5;
   color: #003459;
+  transition: transform 0.3s;
+  transform: scale(1.05);
 }
 
 #navbar img {
